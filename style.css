@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url(hello.png) repeat;
+  background-size: cover;
+}
+
+.fix {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.box {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 30px;
+  padding-left: 40px;
+  min-height: 500px;
+  margin-top: 40px;
+}
+.container {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 40px;
+  width: 400px;
+   
+  height: fit-content;
+}
+
+.content {
+  width: 500px;
+  height: 200px;
+    
+  color: #fff;
+}
+.content button {
+  font-size: 25px;
+}
